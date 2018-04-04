@@ -1,5 +1,7 @@
 # External-ESP
 
+For those who don't want to compile it, here you go : [releases}(https://github.com/coltonon/External-ESP/releases)
+
 ![screenshot](https://raw.githubusercontent.com/coltonon/External-ESP/master/image.png)
 
 Does that^
