@@ -1,7 +1,5 @@
 #include "Includes.h"
 
-/* 外挂在游戏更新后需要修改的OFFSET地址 update:2018/4/19 */
-
 #define OFFSET Main 0x144014850
 #define OFFSET FirstTypeInfo 0x144014E68
 #define OFFSET ClientGameContext 0x1442F0408
