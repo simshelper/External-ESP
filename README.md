@@ -1,6 +1,6 @@
 ## STWBF2（星球大战：前线2）透视外挂
 
-已经编译完成，可以直接下载ESP使用： [releases](https://github.com/simshelper/External-ESP/releases)
+给那些不会编译的人，直接下载使用： [releases](https://github.com/simshelper/External-ESP/releases)
 
 ## 更新记录：
 
