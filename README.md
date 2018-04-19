@@ -1,4 +1,4 @@
-## STWBF2（星球大战：前线2）透视外挂
+## STWBF2（星球大战：前线2）透视辅助
 
 感谢原作者：@coltonon
 
@@ -10,7 +10,7 @@
 
 1.适配伊沃克大逃亡版本
 
-2.汉化了外挂文本
+2.完全汉化
 
 ![](http://ww1.sinaimg.cn/large/005zNprZly1fqi49qos33j30f409jahb.jpg)
 
