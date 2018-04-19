@@ -4,11 +4,13 @@
 
 ## 更新记录：
 
-2018.4.19 适配伊沃克大逃亡版本
+2018.4.19 
 
-源地址：https://github.com/coltonon/External-ESP
+1.适配伊沃克大逃亡版本
 
-![screenshot](https://raw.githubusercontent.com/coltonon/External-ESP/master/image.png)
+2.汉化了插件
+
+![](http://ww1.sinaimg.cn/large/005zNprZly1fqi49qos33j30f409jahb.jpg)
 
 ## 使用方法
 
@@ -17,31 +19,3 @@
 2.打开ESP.exe
 
 3.享受原力的指引吧！
-
-## 外挂设置
-
-Enemy Boxes:敌方框体
-
-Enemy Snaplines:敌方射击追踪线
-
-Enemy Healthbars：敌方生命条
-
-Enemy Names：敌方姓名
-
-Vsync:开启/关闭外挂渲染层垂直同步
-
-我方设置同上
-
-红色为两点之间有遮挡，黄色为两点之间无遮挡
-
-1为打开 0为关闭
-
-
-操作：
-
-TAB切换标签页
-
-键盘上下切换选项
-
-左右开启/关闭功能
-
