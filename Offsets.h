@@ -1,10 +1,10 @@
 #include "Includes.h"
 
-#define OFFSET Main 0x144014850
-#define OFFSET FirstTypeInfo 0x144014E68
-#define OFFSET ClientGameContext 0x1442F0408
-#define OFFSET GameRenderer 0x14455F360
-#define OFFSET DXRenderer 0x14455D380
+#define OFFSET_GAMECONTEXT 0x1442F0408
+#define OFFSET_GAMERENDERER 0x14455F360
+#define OFFSET_FirstTypeInfo 0x144014E68
+#define OFFSET_DXRenderer 0x14455D380
+#define OFFSET_Main 0x144014850
 
 LPCSTR GameName = "STAR WARS BATTLEFRONT II";
 
