@@ -8,7 +8,7 @@
 
 1.适配伊沃克大逃亡版本
 
-2.汉化了插件
+2.汉化了外挂文本
 
 ![](http://ww1.sinaimg.cn/large/005zNprZly1fqi49qos33j30f409jahb.jpg)
 
