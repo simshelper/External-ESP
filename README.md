@@ -1,5 +1,7 @@
 ## STWBF2（星球大战：前线2）透视外挂
 
+感谢原作者：@coltonon
+
 直接下载使用： [releases](https://github.com/simshelper/External-ESP/releases)
 
 ## 更新记录：
