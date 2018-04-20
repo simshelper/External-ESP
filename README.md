@@ -12,9 +12,11 @@
 
 2018.4.19 
 
-1.适配伊沃克大逃亡版本
+1.替换新版本对应的OFFSETS地址
 
-2.完全汉化
+2.重新编译
+
+3.完全汉化
 
 ![](http://ww1.sinaimg.cn/large/005zNprZly1fqi49qos33j30f409jahb.jpg)
 
