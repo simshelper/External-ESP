@@ -129,41 +129,41 @@ void Drawer(Direct2DOverlay* ov)
 
 
 void main() {
-	std::cout << "Welcome to the Simple ESP by Coltonon" << std::endl;
-	std::cout << "Attaching Memory" << std::endl;
+	std::cout << "欢迎使用星球大战：前线2透视辅助" << std::endl;
+	std::cout << "1.读取内存..." << std::endl;
 	mem.attach(GameName); 
 	
-	std::cout << "Initializing Overlay" << std::endl;
+	std::cout << "2.覆盖遮罩..." << std::endl;
 	Direct2DOverlay* asd = new Direct2DOverlay(asdd, Drawer);
-	asd->Initialize(GameName, "Coltonon's ESP");
+	asd->Initialize(GameName, "星球大战：前线2透视辅助");
 
-	std::cout << "Setting Up Menu" << std::endl;
-	menu.Initialize(asd, L"Coltonon.co | Unknowncheats.me");
+	std::cout << "3.设置菜单..." << std::endl;
+	menu.Initialize(asd, L"汉化：luxfun 18.04.20 v2.04");
 
-	MenuTab esptab(L"Enemy ESP");
-	esptab.AddItem(MenuItem(L"Enemy Boxes", &enemyboxes));
-	esptab.AddItem(MenuItem(L"Enemy SnapLines", &enemysnaplines));
-	esptab.AddItem(MenuItem(L"Enemy Healthbars", &enemyhealth));
-	esptab.AddItem(MenuItem(L"Enemy Names", &enemynames));
+	MenuTab esptab(L"敌方ESP");
+	esptab.AddItem(MenuItem(L"敌方框体", &enemyboxes));
+	esptab.AddItem(MenuItem(L"敌方视线", &enemysnaplines));
+	esptab.AddItem(MenuItem(L"敌方生命", &enemyhealth));
+	esptab.AddItem(MenuItem(L"敌方姓名", &enemynames));
 
-	MenuTab teamtab(L"Team ESP");
-	teamtab.AddItem(MenuItem(L"Team Boxes", &teamboxes));
-	teamtab.AddItem(MenuItem(L"Team SnapLines", &teamsnaplines));
-	teamtab.AddItem(MenuItem(L"Team Healthbars", &teamhealth));
-	teamtab.AddItem(MenuItem(L"Team Names", &teamnames));
+	MenuTab teamtab(L"队友ESP");
+	teamtab.AddItem(MenuItem(L"队友框体", &teamboxes));
+	teamtab.AddItem(MenuItem(L"队友视线", &teamsnaplines));
+	teamtab.AddItem(MenuItem(L"队友生命", &teamhealth));
+	teamtab.AddItem(MenuItem(L"队友姓名", &teamnames));
 
-	MenuTab misctab(L"Misc");
-	misctab.AddItem(MenuItem(L"vSync", &vsync));
+	MenuTab misctab(L"其它设置");
+	misctab.AddItem(MenuItem(L"遮罩垂直同步", &vsync));
 	menu.AddTab(esptab);
 	menu.AddTab(teamtab);
 	menu.AddTab(misctab);
 
-	std::cout << "Initiating Loop" << std::endl;
-	std::cout << std::endl << std::endl << "\tControls:" << std::endl;
-	std::cout << "\t\t[DELETE]\tShow/Hide Menu" << std::endl;
-	std::cout << "\t\t[UP/DOWN]\tNavigate Menu Up/Down" << std::endl;
-	std::cout << "\t\t[LEFT/RIGHT]\tChange Selected Menu Item" << std::endl;
-	std::cout << "\t\t[TAB]\t\tSwitch Menu Tabs" << std::endl;
+	std::cout << "4.开始工作！" << std::endl;
+	std::cout << std::endl << std::endl << "\t控制:" << std::endl;
+	std::cout << "\t\t[DELETE]\t展示/隐藏 菜单" << std::endl;
+	std::cout << "\t\t[UP/DOWN]\t菜单选项 上/下" << std::endl;
+	std::cout << "\t\t[LEFT/RIGHT]\t开启/关闭 功能" << std::endl;
+	std::cout << "\t\t[TAB]\t\t切换菜单" << std::endl;
 
 	asd->StartLoop();
 }

@@ -89,7 +89,7 @@ public:
 		this->ov->DrawString(this->title, 20, this->positionx + 10, this->positiony + spacing - 10, this->Text_Titles.r, this->Text_Titles.g, this->Text_Titles.b);
 		
 		if (!this->show) {
-			this->ov->DrawString(L"[Del]: Show/Hide Menu", 20, this->positionx + 10, this->positiony + spacing*2 - 10, this->Text_Items.r, this->Text_Items.g, this->Text_Items.b);
+			this->ov->DrawString(L"[Del]: ÏÔÊ¾/Òþ²Ø ²Ëµ¥", 20, this->positionx + 10, this->positiony + spacing*2 - 10, this->Text_Items.r, this->Text_Items.g, this->Text_Items.b);
 		}
 		else {
 			for (int tabindex = 0; tabindex < Tabs.size(); tabindex++) {
